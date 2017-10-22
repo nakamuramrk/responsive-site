@@ -72,6 +72,6 @@ footer {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     footer .button:hover {
-      background-color: darken #fff, 10%; }
+      background-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
