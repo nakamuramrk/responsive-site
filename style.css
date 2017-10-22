@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*header-----*/
+.box {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("img/stars-blogsize.jpg"); }
+
+@media (min-width: 769px) {
+  .box {
+    height: 500px; } }
+/*body-----*/
+body {
+  color: #042046;
+  font-size: 1.2rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fff; }
+
+h2 {
+  color: #ff9121;
+  font-size: 2rem;
+  margin: 5px 0;
+  text-align: center; }
+
+h3 {
+  color: #1d80f1;
+  font-size: 1.8rem;
+  margin: 5px 0;
+  text-align: center; }
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.textbox {
+  -webkit-flex: 1;
+  flex: 1;
+  margin: 20px 10px;
+  padding: 10px;
+  border: solid;
+  border-color: #1d80f1;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row; } }
+/*footer-----*/
+footer {
+  background-color: #1d80f1;
+  padding: 10px 0;
+  text-align: center; }
+  footer .button {
+    margin: auto;
+    text-align: center;
+    padding: 5px 0;
+    width: 150px;
+    display: block;
+    background-color: #ff9121;
+    font-weight: bold;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    footer .button:hover {
+      background-color: darken #fff, 10%; }
+
+/*# sourceMappingURL=style.css.map */
